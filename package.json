@@ -1,0 +1,27 @@
+{
+  "name": "atividade-escrtiorio",
+  "version": "1.0.0",
+  "description": "- IMC calcula o Indice de Massa Corporal\r - Tabuada calcula a tabuada de um numero.",
+  "main": "index.js",
+  "scripts": {
+    "imc": "nodemon src/imc.ts",
+    "tabuada": "nodemon src/tabuada.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielMarcelino65/Atividade-Escrtiorio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielMarcelino65/Atividade-Escrtiorio/issues"
+  },
+  "homepage": "https://github.com/DanielMarcelino65/Atividade-Escrtiorio#readme",
+  "dependencies": {
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}
